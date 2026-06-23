@@ -1,0 +1,12 @@
+.courses-page {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.cell-desc {
+  max-width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-muted);
+}

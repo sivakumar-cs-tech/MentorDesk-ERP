@@ -1,0 +1,36 @@
+.students-page {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.toggle-label input {
+  width: auto;
+  height: auto;
+  accent-color: var(--primary);
+}
+
+.cell-mono {
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--primary);
+}
+
+.cell-bold {
+  font-weight: 600;
+}
